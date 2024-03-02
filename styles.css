@@ -169,3 +169,59 @@ header .container {
     font-size: 0.875rem;
     color: var(--cinza-secundario);
 }
+
+@media screen and (max-width: 768px) {
+    header .container {
+        display: block;
+        background-image: none;
+    }
+    .container {
+        display: block;
+        background-image: none;
+    }
+    .container__titulo {
+        font-size: 1.7rem;
+    }
+    .container__caixa {
+        margin: 4rem 3rem;
+    }
+    .container__imagem {
+        width: 70vw;
+        margin: 3rem 0;
+    }
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+    .secundario__botao {
+        margin-top: 1.5rem;
+    }
+    .secundario__imagem {
+        width: 80vw;
+    }
+    .container__descricao {
+        padding: 2rem;
+    }
+    .container__descricao:last-child {
+        padding-top: 3rem;
+    }
+    .descricao__titulo {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .dispositivos {
+        margin-bottom: 10rem;
+    }
+    .dispositivos__titulo {
+        font-size: 2rem;
+    }
+    .dispositivos__lista {
+        display: block;
+    }
+    .lista__item {
+        font-size: 1.5rem;
+    }
+    .rodape__lista {
+        display: block;
+    }
+}
