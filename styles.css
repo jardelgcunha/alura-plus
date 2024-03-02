@@ -125,7 +125,7 @@ header .container {
     color: var(--branco-principal);
 }
 .dispositivos__lista {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -136,37 +136,36 @@ header .container {
     color: var(--branco-principal);
 }
 
-footer {
+.rodape {
     padding: 0 8%;
+    margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.footer__logo {
-    margin-bottom: 2rem;
-}
-
-.footer__conteudo {
+    gap: 1.5rem;
     text-align: center;
 }
-.footer__atalhos {
+
+.rodape__logo {
+    margin-bottom: 0.5rem;
+}
+
+.rodape__lista {
     display: flex;
     list-style: none;
 }
-.atalho__botao {
-    margin: 1rem;
+.lista__link {
+    margin: 0 1rem;
     text-decoration: none;
     color: var(--branco-principal);
     cursor: pointer;
     transition: 0.3s;
 }
-.atalho__botao:hover {
+.lista__link:hover {
     opacity: 0.7;
 }
 
-.footer__direitos_autorais {
-    margin: 1.5rem;
+.rodape__texto {
     font-size: 0.875rem;
     color: var(--cinza-secundario);
 }
